@@ -1,0 +1,74 @@
+.image {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px;
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 55px;
+    color: rgb(20, 19, 19);
+  }
+.h2{
+    border-bottom: 0.5px solid #f1f1f1 ;
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 5px;
+    font-weight: lighter;
+}
+.form{
+    padding: 10px 2px;
+    margin: 5px;
+}
+.all, .any, .exact, .none{
+    margin: 10px;
+    font-size: 15px;
+}
+#all{
+    margin-left: 92px;
+}
+#any{
+    margin-left: 66px;
+}
+#none{
+    margin-left: 55px;
+}
+#exact{
+    margin-left: 21px;
+}
+input[type=text]{
+    width: 450px;
+    height: 30px;
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 0%; 
+}
+input[type=text]:focus{
+   outline: none;
+}
+input[type=text]:hover{
+  border:1px solid rgb(98, 98, 255);
+  box-shadow: 0 0 2px rgb(108, 108, 224);
+}
+label{
+    padding-top: 5px;
+}
+input[type=submit]{
+    background-color: rgb(98, 98, 255);
+    color:honeydew;
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    border:none;
+    border-radius: 5px;
+}
+.submit{
+    margin: 30px;
+    text-align: center;
+}

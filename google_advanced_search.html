@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="./style2.css">
+    </head>
+    <body style="font-family: Arial, Helvetica, sans-serif;">
+        <header class="image">
+            <div style="text-align: right;">
+                <a class="link" href="./google_image.html">  Images  </a><a class="link" href="./index.html">  Google</a>
+              </div> 
+           <img alt="Google" height="32" id="hplogo" src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="95" data-atf="1">
+        </header>
+        <div>
+            <h2 class="h2" style="color: red;">Advance Search</h2>
+        </div>
+        <form class="form" action="https://www.google.co.in/search">
+            <h3>Find pages with..</h3>
+            <div class="all">
+                <label for="all">All these words: </label>
+                <input id="all" autocomplete="off" autofill="off" type="text" name="as_q"> 
+            </div>
+            <div class="exact">
+                <label for="exact">This exact word or phrase: </label>
+                <input id="exact" autocomplete="off" autofill="off" type="text" name="as_epq">
+            </div>
+            <div class="any">
+                <label for="any">Any of these words: </label>
+                <input id="any" autocomplete="off" autofill="off" type="text" name="as_oq">
+            </div>
+            <div class="none">
+                <label for="none">None of these words: </label>
+                <input id="none" autocomplete="off" autofill="off" type="text" name="as_eq">
+            </div>
+            <div class="submit">
+               <input type="submit" value="Advanced Search">
+            </div>
+
+        </form>
+    </body>
+</html>
